@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    width:100vw;
+    height: 60px;
+    background-color: pink;
+    justify-content: center;
+    ul{
+        display: flex;
+        list-style-type: none;
+        margin-top: 8px;
+        li{
+            margin-right: 18px;
+        }
+    }
+    .btn{
+        margin-bottom: 6px;
+    }
+}
+
+.light{
+    .navbar{
+        background-color: #F4E869;
+    }
+}
+
+.dark{
+    .navbar{
+        background-color: grey;
+    }
+}

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  background-color: pink;
+  justify-content: center;
+}
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 8px;
+}
+.navbar ul li {
+  margin-right: 18px;
+}
+.navbar .btn {
+  margin-bottom: 6px;
+}
+
+.light .navbar {
+  background-color: #F4E869;
+}
+
+.dark .navbar {
+  background-color: grey;
+}/*# sourceMappingURL=style.css.map */
